@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cb.tc_1.MainActivity"
+    android:layout_gravity="center"
+    android:background="@color/back_XO"
+    >
+
+
+
+
+    <ImageButton
+        android:id="@+id/refr_b"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/return_b" />
+
+    <ImageButton
+        android:id="@+id/manu_b"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
+        app:srcCompat="@drawable/menu_b" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:background="@color/Black_color"
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.628">
+
+        <TableRow android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/b00"
+                style="@style/Field_image"
+
+                app:srcCompat="@drawable/whitebar" />
+
+
+            <ImageButton
+                android:id="@+id/b01"
+                style="@style/Field_image"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/whitebar" />
+
+
+            <ImageButton
+
+                android:id="@+id/b02"
+                style="@style/Field_image"
+
+                app:srcCompat="@drawable/whitebar" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/b10"
+                style="@style/Field_image"
+                app:srcCompat="@drawable/whitebar" />
+
+
+            <ImageButton
+                android:id="@+id/b11"
+                style="@style/Field_image"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/whitebar" />
+
+
+            <ImageButton
+
+                android:id="@+id/b12"
+                style="@style/Field_image"
+                app:srcCompat="@drawable/whitebar" />
+        </TableRow>
+
+
+        <TableRow android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/b20"
+                style="@style/Field_image"
+                app:srcCompat="@drawable/whitebar" />
+
+
+            <ImageButton
+                android:id="@+id/b21"
+                style="@style/Field_image"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/whitebar" />
+
+
+            <ImageButton
+                android:id="@+id/b22"
+                style="@style/Field_image"
+                app:srcCompat="@drawable/whitebar" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
